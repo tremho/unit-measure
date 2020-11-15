@@ -1,0 +1,29 @@
+{
+  "copy": [
+    {
+      "from": "build",
+      "to": "npm",
+      "clean": true,
+      "dirs": [
+        {
+          "name": "src",
+          "recursive": true
+        }],
+      "files": [
+        {
+          "name": "UnitMeasure.js"
+        }
+      ]
+    },
+    {
+      "from": ".",
+      "to": "npm",
+      "files": [
+        { "name": "README.md" },
+        { "name": "Scenarios.md" },
+        { "name": "LICENSE" },
+        { "name": "npm-package.json", "rename": "package.json"}
+      ]
+    }
+  ]
+}

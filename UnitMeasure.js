@@ -61,31 +61,30 @@ const Volume = require('./unit/Volume')
  * @property {Torque} Torque
  *          Measures torque (e.g. pascals)
  * @property {Voltage} Voltage
- *          Measures electrical pressure (e.g. volts)
+ *          Measures electrical potential (e.g. volts)
  * @property {Volume} Volume
  *          Measures units of volume (e.g liter, gallon)
  */
-module.exports = {
-  Measure,
-  NameMapRatio,
-  NameMapUnit,
-  Ratio,
-  UnitFactory,
-  UnitType,
-  Acceleration,
-  Amperage,
-  Angle,
-  Count,
-  Distance,
-  FuelEfficiency,
-  Length,
-  Light,
-  Power,
-  Pressure,
-  Speed,
-  Temperature,
-  Time,
-  Torque,
-  Voltage,
-  Volume
-}
+
+export Measure
+export NameMapRatio
+export NameMapUnit
+export Ratio
+export UnitFactory
+export UnitType
+export Acceleration
+export Amperage
+export Angle
+export Count
+export Distance
+export FuelEfficiency
+export Length
+export Light
+export Power
+export Pressure
+export Speed
+export Temperature
+export Time
+export Torque
+export Voltage
+export Volume
