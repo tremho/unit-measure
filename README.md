@@ -12,9 +12,9 @@ such as speed or acceleration.
 [![TotalDownloads][total-downloads-image]][npm-url]
 [![Twitter Follow][twitter-image]][twitter-url]
 
-[build-status]: https://travis-ci.com/tremho/unit-measure.svg?branch=master
+[build-status]: https://travis-ci.com/tremho/unit-measure.svg?branch=main
 
-[build-url]: https://travis-ci.org/tremho/unitMeasure
+[build-url]: https://travis-ci.org/tremho/unit-measure
 
 [npm-image]: http://img.shields.io/npm/v/unit-measure.svg
 
