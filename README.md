@@ -1,6 +1,6 @@
 # unit-measure
 
-version: 0.1.1
+version: 0.1.2
 
 A class library defining a set of unit-measure types for
 various styles of measurement, including Ratio type measures

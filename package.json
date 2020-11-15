@@ -1,6 +1,6 @@
 {
   "name": "unit-measure",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Class library for managing units of measure and conversions between unit standards.",
   "main": "index.js",
   "scripts": {
