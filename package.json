@@ -1,6 +1,6 @@
 {
   "name": "unit-measure",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Class library for managing units of measure and conversions between unit standards.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
     "directTest-ratio": "npm run clean && npm run build && node ./build/test/ratio.test.js",
     "directTest-pickup": "npm run clean && npm run build && node ./build/test/pickup.test.js",
     "doc": "npm run clean && npm run build && inchjs && cd build; tsccd ./; documentation readme --readme-file ../README.md --markdown-toc false --section API UnitMeasure.js",
-    "npm-prep" : "node script/npm-prep.js"
+    "npm-prep": "node script/npm-prep.js",
+    "npm-publish": "npm run doc && bump -tpa README.md package.json npm-package.json && npm run test && npm run npm-prep && cd npm && npm publish"
   },
   "repository": {
     "type": "git",
