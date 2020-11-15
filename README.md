@@ -1267,6 +1267,7 @@ Defines measure for Volume. [UnitType](UnitType) Liter is the base unit.
 -   [X] api docs
 -   [X] inchjs 
 -   [X] npm prep
+-   [ ] Travis CI
 -   [ ] aversion
 -   [ ] npm publish
 
