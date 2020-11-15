@@ -4,7 +4,7 @@
   "description": "Class library for managing units of measure and conversions between unit standards.",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -fr ./build",
+    "clean": "rm -fr ./build ./npm",
     "build": "tsc",
     "start": "npm run clean && npm run build && node ./build/index.js",
     "test": "npm run clean && npm run build && nyc tap --no-timeout ./build/test/*.test.js",
@@ -41,7 +41,9 @@
     "seedrandom": "^3.0.5",
     "tap": "^14.10.8",
     "ts-clear-classdoc": "^1.0.1",
-    "typescript": "^4.0.5",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
     "spawn-wrap": "^2.0.0"
   }
 }

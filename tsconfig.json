@@ -18,5 +18,5 @@
     "skipLibCheck": true,
     "removeComments": false
   },
-  "include": ["./**/*"]
+  "include": ["./src/*", "./test/*"]
 }
