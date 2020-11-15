@@ -1,0 +1,48 @@
+{
+  "name": "unit-measure",
+  "version": "0.1.0",
+  "description": "Class library for managing units of measure and conversions between unit standards.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -fr ./build",
+    "build": "tsc",
+    "start": "npm run clean && npm run build && node ./build/index.js",
+    "test": "npm run clean && npm run build && nyc tap --no-timeout ./build/test/*.test.js",
+    "directTest-general": "npm run clean && npm run build && node ./build/test/general.test.js",
+    "directTest-scenario": "npm run clean && npm run build && node ./build/test/scenario.test.js",
+    "directTest-ratio": "npm run clean && npm run build && node ./build/test/ratio.test.js",
+    "directTest-pickup": "npm run clean && npm run build && node ./build/test/pickup.test.js",
+    "doc": "npm run clean && npm run build && inchjs && cd build; tsccd ./; documentation readme --readme-file ../README.md --markdown-toc false --section API UnitMeasure.js",
+    "npm-prep" : "node script/npm-prep.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tremho/unit-measure.git"
+  },
+  "keywords": [
+    "unit",
+    "measure",
+    "library",
+    "development",
+    "conversion",
+    "localization"
+  ],
+  "author": "tremho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tremho/unit-measure/issues"
+  },
+  "homepage": "https://github.com/tremho/unit-measure#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "human-test": "^0.3.0",
+    "inchjs": "^0.4.1",
+    "seedrandom": "^3.0.5",
+    "tap": "^14.10.8",
+    "ts-clear-classdoc": "^1.0.1",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "spawn-wrap": "^2.0.0"
+  }
+}
