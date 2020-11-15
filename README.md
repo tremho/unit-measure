@@ -1,5 +1,7 @@
 # unit-measure
 
+version: 0.1.0
+
 A class library defining a set of unit-measure types for
 various styles of measurement, including Ratio type measures
 such as speed or acceleration.
@@ -52,13 +54,14 @@ may be instantiated by name.
 -   `Power` (watt, horsepower)
 -   `Pressure` (kiloPascal, pounds per sq ft, etc)
 -   `Speed` (mph, kph, etc.)
--   `Temperature` (Celsius, Fahrenheit, and Kelvin)
 -   `Time` (microseconds to years)
 -   `Torque` (Gram Force Centimeter, Foot Pound)
 -   `Voltage` (Volts)
 -   `Volume` (liters, fluid ounces, cup, quart, gallon, tsp, tbsp, etc)
 
 ### Installation
+
+    npm install unit-measure
 
 ### Usage
 
@@ -1247,15 +1250,55 @@ Defines measure for Volume. [UnitType](UnitType) Liter is the base unit.
 -   `value` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)?** The value.
 -   `valueUnitType` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** The UnitType of the initializing value
 
+---
+
 ### Contributing
+We welcome and encourage contribution!  That's what
+open-source sharing is all about, right?
 
 #### Corrections
+If you find errors in conversions, abbreviations, or other
+elements of this library implementation, please post an
+issue immediately.
+
+Post using the label `bug` and be as specific as you can.
+Code examples showing the problem are recommended if possible.
+
+Bugs can be submitted to the [issues page](https://github.com/tremho/unit-measure/issues)
 
 #### Suggestions
+If you have suggestions for expanding or improving this library, please
+post your ideas to the [issues page](https://github.com/tremho/unit-measure/issues). 
+Use the `enhancement` or `documentation` label, depending on your suggestion type.
 
 #### Code contribution
+If you are browsing the issues page, and see something that you 
+think you can support in code, then please fork the [github repo](https://github.com/tremho/unit-measure),
+make and test your changes, then submit as a Pull Request. Reference the issue # that
+your change represents in the submission.
+If you are unsure about how to prepare a Pull Request, please
+read this [GitHub doc](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
 
 #### Use case scenarios
+If you are using this in your application, please drop us a line
+telling us your use case and context.  This will help us to
+improve this and other offerings by understanding who uses our
+work and why.
+
+You can post your feedback to the [issues page](https://github.com/tremho/unit-measure/issues) (please use
+the label tag `other`), or you can email me directly at [steve@ohmert.com](mailto:steve@ohmert.com)
+
+### License
+unit-measure is 100% free and open-source per the MIT License.
+Use it however you want. 
+If you find this module useful, please mention it in your
+credits, readmes, blogs, etc.
+
+#### Reaching out
+I'd also love to hear from you.  Please feel free to
+email me at [steve@ohmert.com](mailto:steve@ohmert.com)
+or message me on Twitter @tremho1
+
 
 * * *
 
@@ -1268,7 +1311,7 @@ Defines measure for Volume. [UnitType](UnitType) Liter is the base unit.
 -   [X] inchjs 
 -   [X] npm prep
 -   [ ] Travis CI
--   [ ] aversion
+-   [ ] aversion / bump
 -   [ ] npm publish
 
 
